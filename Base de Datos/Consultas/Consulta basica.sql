@@ -1,0 +1,1 @@
+SELECT  nombre, email FROM empresa.usuarios;

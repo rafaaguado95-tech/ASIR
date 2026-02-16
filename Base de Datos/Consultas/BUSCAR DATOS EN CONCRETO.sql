@@ -1,0 +1,1 @@
+SELECT nombre, apellido FROM EJEMPLO.PERSONA WHERE ciudad='madrid' ORDER BY nombre ASC; 

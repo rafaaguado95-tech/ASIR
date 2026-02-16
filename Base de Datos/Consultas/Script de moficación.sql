@@ -1,0 +1,4 @@
+ALTER TABLE `empresa`.`usuarios` 
+DROP COLUMN `nombrepropio`,
+ADD COLUMN `Dirección` VARCHAR(50) NOT NULL AFTER `PREF`,
+CHANGE COLUMN `PREF` `PREF` INT(3) NOT NULL DEFAULT '34' ;
