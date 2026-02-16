@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <title>El portafolio de Rafael Aguado Duque</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>Rafael Aguado duque</h1>
+      <p>Portfolio</p>
+    </header>
+    <main>
+      {% for pieza in datos %}
+<article style="background-image:url(static/img/blancotrans.png),url(static/img/{{pieza.imagen}});background-size:cover;background-position:center center;">
+          <h3>{{pieza.titulo}}</h3>
+          
+        </article>
+      {% endfor %}
+        </main>
+
+    <section class="cv">
+      <div class="cv-inner">
+        <div class="cv-hero">
+          <div class="cv-title">
+            <h2>Sobre mí</h2>
+            <p class="cv-sub">
+              Soy <strong>Rafael Aguado Duque </strong> , soy estudiante de ASIR con interés en el desarrollo web y los sistemas, me gusta crear proyectos claros, funcionales y bien estructurados, cuidando tanto el diseño como la parte técnica
+            </p>
+          </div>
+
+          <div class="cv-actions">
+            <a class="btn" href="mailto:info@josevicentecarratala.com">Contactar</a>
+            <a class="btn btn-ghost" href="https://github.com/jocarsa" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/jvcarratala/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="cv-grid">
+          <div class="cv-card">
+            <h3>Perfil</h3>
+            <ul>
+              <li>Administración de sistemas y servicios en entornos Linux (SaaS)</li>
+              <li>Desarrollo web básico para proyectos internos y personales</li>
+              <li>Gestión de bases de datos y consultas SQL</li>
+              <li>Interés por la automatización y la mejora de procesos</li>
+            </ul>
+          </div>
+
+          <div class="cv-card">
+            <h3>Especialidades</h3>
+            <ul>
+              <li>Sistemas: Linux, usuarios, permisos y servicios</li>
+              <li>Sistemas: Windows server, usuarios, permisos y servicios</li>
+              <li>Bases de datos: SQL, SQLite y MySQL</li>
+              <li>Servidores: Apache, despliegue básico y mantenimiento</li>
+            </ul>
+          </div>
+
+          <div class="cv-card">
+            <h3>Proyectos</h3>
+            <ul>
+              <li><strong>portafolio web</strong>: Diseño y maquetación de un portfolio responsive con HTML y CSS, aplicando grids, efectos hover y diseño moderno.</li>
+              <li><strong>Aplicación web con SQLite</strong>:creación y gestión de una base de datos SQLite para entradas, con inserciones, consultas SQL y estructura relacional</li>
+              <li><strong>Inserción y gestión de datos SQL</strong>: creación de múltiples sentencias INSERT para poblar una base de datos con contenido real.</li>
+              <li><strong>Dominios en Windows server</strong>: Creacion de dominios en windows Server, con carpetas , perfeiles moviles y fijos y GPOs</li>
+            </ul>
+          </div>
+
+          <div class="cv-card">
+            <h3>Contacto</h3>
+            <ul>
+              <li>Email: <a href="mailto:Rafaaguado95@gmail.com">info@josevicentecarratala.com</a></li>
+              <li>Web: <a href="https://RafaaguadoDuque.com" target="_blank" rel="noopener">josevicentecarratala.com</a></li>
+              <li>GitHub: <a href="https://github.com/rafaaguado95-tech" target="_blank" rel="noopener">github.com/rafaaguado95-tech/</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://facebook.com/carratala" aria-label="Facebook de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/facebook.png" alt="Facebook" loading="lazy" decoding="async"></a>
+                <a href="https://www.instagram.com/jvcarratala/" aria-label="Instagram de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/instagram.png" alt="Instagram" loading="lazy" decoding="async"></a>
+                <a href="mailto:info@josevicentecarratala.com" aria-label="Enviar correo a José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/email.png" alt="Email" loading="lazy" decoding="async"></a>
+                <a href="https://github.com/jocarsa" aria-label="GitHub de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/github.png" alt="GitHub" loading="lazy" decoding="async"></a>
+                <a href="https://josevicentecarratala.com" aria-label="Web principal de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/home.png" alt="Web" loading="lazy" decoding="async"></a>
+                <a href="https://www.linkedin.com/in/jvcarratala/" aria-label="LinkedIn de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/linkedin.png" alt="LinkedIn" loading="lazy" decoding="async"></a>
+                <a href="https://wa.me/34620891718" aria-label="WhatsApp de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+                <a href="https://www.youtube.com/@VicenteCarratala" aria-label="YouTube de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/youtube.png" alt="YouTube" loading="lazy" decoding="async"></a>
+    </footer>
+  </body>
+</html>

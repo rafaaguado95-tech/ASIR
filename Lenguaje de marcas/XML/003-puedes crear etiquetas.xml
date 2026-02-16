@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+    <datos_personales>
+        <nombre>Rafael </nombre>
+        <apellidos>Aguado Duque</apellidos>
+        <direccion>Calle Falsa 123, Ciudad, España</direccion>
+        <telefono>+34 638 794 841</telefono>
+        <email>Rafaaguado95@gmail.com</email>
+    </datos_personales>
+
+</curriculum>

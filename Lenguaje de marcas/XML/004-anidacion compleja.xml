@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+    <datos_personales>
+        <nombre>Rafael </nombre>
+        <apellidos>Aguado Duque</apellidos>
+        <direccion>Calle Falsa 123, Ciudad, España</direccion>
+        <telefono>+34 638 794 841</telefono>
+        <email>Rafaaguado95@gmail.com</email>
+    </datos_personales>
+    <experiencia_profesional>
+    <experiencia>
+    <empresa>Procu</empresa>
+        <periodo>Junio 2024 - presente</periodo>
+        <responsabilidades>Salvaguardar ubicaciones criticas</responsabilidades>
+    </experiencia>
+
+    <experiencia>
+         <empresa>Ejecito</empresa>
+        <periodo>Junio 2018 - 2024</periodo>
+        <responsabilidades>Salvaguardar ubicaciones criticas</responsabilidades>
+    </experiencia>
+
+     <experiencia>
+        <empresa>Procu</empresa>
+        <periodo>Junio 2022 - presente</periodo>
+        <responsabilidades>Salvaguardar ubicaciones criticas</responsabilidades>
+     </experiencia>
+    </experiencia_profesional>
+
+
+</curriculum>

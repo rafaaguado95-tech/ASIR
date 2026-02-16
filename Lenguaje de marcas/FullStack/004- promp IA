@@ -1,0 +1,65 @@
+tengo una base de datos sqlite con una tabla con esta estructura CREATE TABLE "entradas" ( "id" INTEGER, "titulo" TEXT, "fecha" TEXT, "autor" TEXT, "categoria" TEXT, "contenido" TEXT, "imagen" TEXT, PRIMARY KEY("id" AUTOINCREMENT) ); y este es un insert into de muestra: INSERT INTO entradas VALUES ( NULL, 'Este es el título 2', '2025-12-11', 'Jose Vicente Carratala', 'general', 'Este es el contenido del artículo 2', 'josevicente.jpg' ); con lo cual por favor creame 30 entradas más que traten sobre mis actividades
+
+INSERT INTO entradas VALUES (NULL,'Analizando mi equipo Pokémon con IA','2025-12-11','Rafael Aguado Duque','pokemon','Hoy estuve hablando con ChatGPT sobre mi equipo legendario y cuál sería la mejor combinación incluyendo a Ho-Oh.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Creando un equipo perfecto de legendarios','2025-12-11','Rafael Aguado Duque','pokemon','Le pedí a ChatGPT que me hiciera un equipo compuesto solo por legendarios y estuvimos viendo cual sería el más equilibrado.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Consejos para mi Clio híbrido','2025-12-11','Rafael Aguado Duque','coches','Estuve consultando a ChatGPT sobre el consumo real de mi Clio y cómo usar más el modo eléctrico incluso en autopista.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Consultando sueldos de ASIR en Argentina','2025-12-11','Rafael Aguado Duque','empleo','Pregunté a ChatGPT cuánto puede cobrar un junior de ASIR en Argentina y estuvimos viendo ofertas reales.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Buscando glifos en WoW Remix','2025-12-11','Rafael Aguado Duque','wow','Tuve problemas para encontrar la casa de subastas en Orgrimmar dentro del Remix y ChatGPT me guió paso a paso.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Organizando mis repositorios de GitHub','2025-12-11','Rafael Aguado Duque','github','Estuve hablando con ChatGPT sobre cómo subir archivos correctamente y clonar mis repos desde la terminal.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Corrigiendo mi esquema relacional','2025-12-11','Rafael Aguado Duque','sql','Hoy pedí ayuda para convertir un esquema relacional y poner bien las PK, FK y restricciones como pide mi profesor.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Normalizando bases de datos','2025-12-11','Rafael Aguado Duque','sql','ChatGPT me explicó con ejemplos claros las formas normales para un ejercicio del instituto que necesitaba entender.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Probando DeepHat y DeepSeek','2025-12-11','Rafael Aguado Duque','ciberseguridad','No sabía qué era DeepHat ni DeepSeek y ChatGPT me lo aclaró y me explicó sus usos en ciberseguridad.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Intentando descargar herramientas de ciberseguridad','2025-12-11','Rafael Aguado Duque','ciberseguridad','Tuve un error al descargar una herramienta y ChatGPT me explicó por qué aparecía y cómo solucionarlo.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Creación de contenido automático con SQL','2025-12-11','Rafael Aguado Duque','sql','Pedí a ChatGPT que generara entradas completas para poblar mi base de datos SQLite automáticamente.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Entendiendo cómo funciona un servidor Flask','2025-12-11','Rafael Aguado Duque','programación','Hoy consulté para qué sirve un servidor Flask y cómo se usa en proyectos web.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Buscando nuevo juego de Digital Extremes','2025-12-11','Rafael Aguado Duque','videojuegos','Pregunté a ChatGPT cuál era el nuevo título de los creadores de Warframe y estuvimos viendo la información más reciente.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Clases más poderosas en Dragon Age The Veilguard','2025-12-11','Rafael Aguado Duque','videojuegos','Hablé con ChatGPT sobre cuál era la clase más rota del nuevo Dragon Age y qué subclase hacía más daño.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Formas especiales en Dragon Age Inquisition','2025-12-11','Rafael Aguado Duque','videojuegos','Estuve investigando con ChatGPT cómo conseguir ciertas especializaciones en Inquisition y cuánto tarda obtenerlas.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Comparando juegos tipo Dragon Age Origins','2025-12-11','Rafael Aguado Duque','videojuegos','Le pedí a ChatGPT recomendaciones de juegos modernos que se parezcan a Dragon Age Origins.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Calculando horas entre dos momentos','2025-12-11','Rafael Aguado Duque','general','Estuve preguntando cuántas horas pasan entre varias franjas horarias y ChatGPT me lo calculó al segundo.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Interpretando un PDF de teoría','2025-12-11','Rafael Aguado Duque','estudios','Le pedí a ChatGPT que me explicase un PDF punto por punto para entenderlo mejor.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Problemas con mando en PC','2025-12-11','Rafael Aguado Duque','videojuegos','Le pregunté a ChatGPT si un juego soportaba mando porque no conseguía hacerlo funcionar.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Actualizando mis repos de Python','2025-12-11','Rafael Aguado Duque','github','Hice varias preguntas sobre mis repos Python-01 y Python-02 y ChatGPT me ayudó a generar un README claro.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Salir del modo Remix en WoW','2025-12-11','Rafael Aguado Duque','wow','Consulté a ChatGPT cómo volver del modo Remix al WoW normal y me dio todos los pasos.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Aprendiendo sobre mandatos administrativos','2025-12-11','Rafael Aguado Duque','general','Le pedí a ChatGPT un resumen de un documento administrativo relacionado con la compra de mi coche.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Entendiendo emociones sin motivo','2025-12-11','Rafael Aguado Duque','personal','Hablé con ChatGPT sobre por qué a veces puedo llorar sin motivo y me explicó causas comunes.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Optimización de consumo del Clio','2025-12-11','Rafael Aguado Duque','coches','Consulté si conducir en modo ECO a 120 afecta al consumo y cómo aprovechar más la parte eléctrica.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Dudas sobre ASIR y salida laboral','2025-12-11','Rafael Aguado Duque','estudios','Estuve preguntando sobre lo que se puede ganar como técnico de ASIR recién empezado en otros países.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Aprendiendo a leer SQL de terceros','2025-12-11','Rafael Aguado Duque','sql','Hice consultas a ChatGPT sobre cómo interpretar esquemas relacionales complicados con múltiples tablas.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Ideas para mejorar mi formación','2025-12-11','Rafael Aguado Duque','estudios','Conversé con ChatGPT sobre qué debería estudiar a continuación para mejorar como técnico de sistemas.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Organizando mis proyectos con IA','2025-12-11','Rafael Aguado Duque','general','Hoy usé ChatGPT como asistente para organizar mis tareas y proyectos abiertos.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Solucionando problemas con GitHub Desktop','2025-12-11','Rafael Aguado Duque','github','Le pedí ayuda porque no sabía cómo subir un archivo desde la app de GitHub.','Rafael.jpg');
+
+INSERT INTO entradas VALUES (NULL,'Reflexionando sobre IA y videojuegos','2025-12-11','Rafael Aguado Duque','general','Estuve preguntando cómo la IA podría ayudarme a entender mejor builds, clases y estrategias en videojuegos.','Rafael.jpg');
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+

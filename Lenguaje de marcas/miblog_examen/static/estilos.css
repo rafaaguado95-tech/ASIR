@@ -1,0 +1,222 @@
+/* =========================
+   RESET GLOBAL
+========================= */
+
+/* Selecciona todos los elementos */
+* {
+    margin: 0;                  /* Elimina márgenes por defecto */
+    padding: 0;                 /* Elimina rellenos por defecto */
+    box-sizing: border-box;     /* Controla mejor los tamaños */
+}
+
+/* =========================
+   FONDO GENERAL DEL SITIO
+========================= */
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    /* Fuente moderna y legible */
+
+    background: linear-gradient(180deg, #0f172a, #020617);
+    /* Fondo oscuro con degradado elegante */
+
+    color: #e5e7eb;
+    /* Texto claro para contraste */
+
+    line-height: 1.8;
+    /* Mejora la lectura */
+}
+
+/* =========================
+   CABECERA IMPACTANTE
+========================= */
+
+header {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    /* Degradado azul intenso */
+
+    padding: 60px 20px;
+    /* Gran espacio interior */
+
+    text-align: center;
+    /* Centra el contenido */
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    /* Sombra profunda */
+}
+
+/* Título principal */
+header h1 {
+    color: white;
+    /* Texto blanco */
+
+    font-size: 3.2rem;
+    /* Título muy grande */
+
+    letter-spacing: 2px;
+    /* Separación entre letras */
+
+    text-transform: uppercase;
+    /* Texto en mayúsculas */
+
+    text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    /* Sombra del texto */
+}
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+
+main {
+    max-width: 1150px;
+    /* Ancho máximo */
+
+    margin: 80px auto;
+    /* Separación del header */
+
+    padding: 20px;
+}
+
+/* =========================
+   TARJETAS DE ARTÍCULOS (GLASS)
+========================= */
+
+article {
+    background: rgba(255, 255, 255, 0.08);
+    /* Fondo translúcido */
+
+    backdrop-filter: blur(10px);
+    /* Efecto cristal */
+
+    border-radius: 20px;
+    /* Bordes redondeados */
+
+    padding: 35px;
+    /* Espacio interior */
+
+    margin-bottom: 50px;
+    /* Separación entre artículos */
+
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+    /* Sombra intensa */
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    /* Animación suave */
+}
+
+/* Animación al pasar el ratón */
+article:hover {
+    transform: translateY(-14px) scale(1.02);
+    /* Eleva y agranda ligeramente */
+
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.7);
+    /* Sombra más fuerte */
+}
+
+/* =========================
+   TÍTULO DEL ARTÍCULO
+========================= */
+
+article h3 {
+    font-size: 1.9rem;
+    /* Título grande */
+
+    margin-bottom: 12px;
+    /* Separación inferior */
+
+    color: #93c5fd;
+    /* Azul claro */
+}
+
+/* =========================
+   FECHA
+========================= */
+
+article time {
+    display: block;
+    /* Ocupa línea completa */
+
+    font-size: 0.85rem;
+    /* Texto pequeño */
+
+    color: #fca5a5;
+    /* Rojo suave */
+
+    margin-bottom: 6px;
+}
+
+/* =========================
+   AUTOR
+========================= */
+
+article p:first-of-type {
+    font-weight: 600;
+    /* Negrita suave */
+
+    color: #e0e7ff;
+    /* Color claro */
+
+    margin-bottom: 18px;
+}
+
+/* =========================
+   CONTENIDO DEL ARTÍCULO
+========================= */
+
+article p {
+    font-size: 1.05rem;
+    /* Tamaño cómodo */
+
+    margin-bottom: 25px;
+    /* Separación */
+
+    text-align: justify;
+}
+
+/* =========================
+   IMAGEN
+========================= */
+
+article img {
+    width: 100%;
+    /* Imagen adaptable */
+
+    border-radius: 18px;
+    /* Bordes redondeados */
+
+    margin-top: 20px;
+    /* Espacio superior */
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    /* Sombra potente */
+
+    transition: transform 0.4s ease;
+    /* Animación */
+}
+
+/* Efecto hover en imagen */
+article img:hover {
+    transform: scale(1.04);
+    /* Zoom ligero */
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    /* Texto centrado */
+
+    padding: 40px 15px;
+    /* Espacio interior */
+
+    color: #9ca3af;
+    /* Gris claro */
+
+    font-size: 0.9rem;
+    /* Tamaño reducido */
+
+    border-top: 1px solid rgba(255,255,255,0.1);
+    /* Línea superior sutil */
+}

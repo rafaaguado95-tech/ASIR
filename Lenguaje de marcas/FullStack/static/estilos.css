@@ -1,0 +1,89 @@
+header,main,footer{
+	width:800px;
+  margin:auto; 
+  
+}
+
+header,footer{
+	text-align:center;
+}
+article{
+	border-bottom:1px solid grey;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    ackground: linear-gradient(135deg, #ffffff, #e8f1f9); /* Degradado suave de blanco a azul claro */
+    padding: 20px;
+    border-radius: 15px;                           /* Bordes redondeados */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);         /* Sombras suaves */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animación para hover */
+    border: 1px solid rgba(0,0,0,0.05);
+        
+}
+
+ * {
+      margin: 0;              /* Quita márgenes automáticos de todos los elementos */
+      padding: 0;             /* Quita el relleno por defecto */
+      box-sizing: border-box; /* Hace que el tamaño total incluya los bordes y paddings */
+    }
+
+     html {
+      background-color: #e5e5e5; /* Fondo gris claro para todo el documento */
+      font-family: "Poppins", sans-serif; /* Fuente moderna y legible */
+    }
+
+    body {
+      max-width: 800px;        /* Ancho máximo para mejorar la legibilidad */
+      margin: 40px auto;      /* Centra el contenido y añade espacio arriba y abajo */
+      background-color: #ffffff; /* Fondo blanco para el contenido */
+      padding: 20px;          /* Relleno alrededor del contenido */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+      border-radius: 8px;     /* Bordes redondeados para un aspecto más suave */
+    }
+
+  main {
+    width: 80%;       /* Ocupa el 80% del ancho de la pantalla */
+    max-width: 900px;   /* No será más ancho de 900px, aunque tengas pantallón */
+    margin: 40px auto;  /* 40px arriba/abajo, 'auto' centrado horizontal */
+    background: white;  /* Fondo blanco como tarjeta */
+    padding: 30px 40px; /* Espacio interno para que el contenido respire */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+     display: grid;    /* Activamos grid */
+    grid-template-columns: 1fr 1fr;   /* Dos columnas iguales */
+    gap: 25px;  /* Separación entre tarjetas */
+    padding: 10px;
+   } 
+   
+   article time {
+    color: #ff0505; /* Color gris para el texto de la fecha */
+}
+article p {
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+    color: black;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+article h3{
+     margin: 0 0 5px; 
+    font-size: 22px; 
+     color: #032d55; 
+}
+
+article:hover {
+    transform: translateY(-5px);  /* La tarjeta sube un poco */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);  /* Sombra más fuerte */
+}
+
+title{
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ header h1{
+    font-size: 36px;
+    color: #021d36;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+    transform: translate(-5px);
+    display: grid;
+ }

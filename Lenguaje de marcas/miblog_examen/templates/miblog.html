@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>El blog de Rafa</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/estilos.css">
+  </head>
+  <body>
+    <header>
+      <h1>El blog de Rafa</h1>
+    </header>
+    <main>
+      {% for articulo in datos %}
+        <article>
+          <h3>{{articulo.titulo}}</h3>
+          <time>{{articulo.fecha}}</time>
+          <p>{{articulo.autor}}</p>
+          <p>{{articulo.contenido}}</p>
+          <img src="static/imagenes/{{articulo.imagen}}" alt="articulo.imagen">
+        </article>
+      {% endfor %}
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
