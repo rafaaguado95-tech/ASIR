@@ -1,0 +1,6 @@
+-- declaracion en cascada
+-- las actualizaciones en cascada se activan al declarar la foreign key con las clausulas ON DELETE y ON UPDATE
+FOREIGN KEY (campofk)
+    REFERENCES tablaPadre(campopk)
+        ON DEÑLETE { RESTRICT / NO ACTION | CASCADE \ SET NULL}
+        ON UPDATE {RESTRICT / NO ACTION | CASCADE | SET NULL }
